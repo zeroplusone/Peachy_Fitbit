@@ -34,9 +34,9 @@
   <!-- Title and text -->
   <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white" id="title">
     <set href="#top-padding" attributeName="display" to="none" />
-    <set href="#header/text" attributeName="text-buffer" to="no alert" />
+    <set href="#header/text" attributeName="text-buffer" to="No Alert" />
     <set href="#header/text" attributeName="fill" to="fb-magenta"/>
-    <set href="#copy/text" attributeName="text-buffer" to="left to change your pad" />
+    <set href="#copy/text" attributeName="text-buffer" to="                 " />
     <set href="#bottom-padding" attributeName="display" to="none" />
   </use>
 
@@ -51,10 +51,16 @@
     <set href="#text" attributeName="text-buffer" to="tampon" />
     <set href="#text" attributeName="text-anchor" to="middle" />
   </use>
-  <!-- alert clock-->
-<!--   <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow" display="none" id="change">
-    <set href="#header/text" attributeName="text-buffer" to="--:--" id="my_time"/>
-    <set href="#copy/text" attributeName="text-buffer"
-         to="left to change your pad"/>
+  <!-- TOP RIGHT -->
+<!--   <use id="btn-tr" href="#combo-button-upper-right" fill="fb-red">
+    <set href="combo-button-icon" attributeName="href" to="suggestions.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="suggestions.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use> -->
+  <!-- BOTTOM RIGHT -->
+<!--   <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach">
+    <set href="combo-button-icon" attributeName="href" to="change_alert.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="change_alert.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
   </use> -->
 </svg>
