@@ -1,67 +1,55 @@
-/*
- * Entry point for the watch app
- */
-// import document from "document";
-
-// let container = document.getElementById("container");
-
-// // Get the selected index
-// let currentIndex = container.value;
-
-// // Set the selected index
-// container.value = 0; // jump to first slide
-
 import document from "document";
 import { vibration } from "haptics";
 
-let myPopup = document.getElementById("my-popup");
+// let myPopup = document.getElementById("my-popup");
 let suggestion = document.getElementById("suggestion");
 let title = document.getElementById("title");
-let btnLeft = myPopup.getElementById("btnLeft");
-let btnRight = myPopup.getElementById("btnRight");
+let btnLeft = document.getElementById("btnLeft");
+let btnRight = document.getElementById("btnRight");
 let myTime = title.getElementById("header/text");
 let timeDescription = title.getElementById("copy/text");
 
-// let btnTR = myPopup.getElementById("btn-tr");
-// let btnBR = myPopup.getElementById("btn-br");
+let btnTR = document.getElementById("btn-tr");
+let btnBR = document.getElementById("btn-br");
 
 // Show the popup
-myPopup.style.display = "inline";
 suggestion.style.display = "inline";
 title.style.display = "none";
 btnLeft.style.display = "none";
 btnRight.style.display = "none";
 
-document.onkeypress = function(e) {
-  console.log("Key pressed: " + e.key);
-  if(e.key == "up"){
-    suggestion.style.display = "inline";
-    title.style.display = "none";
-    btnLeft.style.display = "none";
-    btnRight.style.display = "none";     
-  }else if (e.key == "down"){
-    suggestion.style.display = "none";
-    title.style.display = "inline";
-    btnLeft.style.display = "inline";
-    btnRight.style.display = "inline"; 
-  }
-}
-
-// btnTR.onactivate = function(evt) {
-//     console.log("up");
+// document.onkeypress = function(e) {
+//   console.log("Key pressed: " + e.key);
+//   if(e.key == "up"){
 //     suggestion.style.display = "inline";
 //     title.style.display = "none";
 //     btnLeft.style.display = "none";
-//     btnRight.style.display = "none"; 
+//     btnRight.style.display = "none";     
+//   }else if (e.key == "down"){
+//     suggestion.style.display = "none";
+//     title.style.display = "inline";
+//     btnLeft.style.display = "inline";
+//     btnRight.style.display = "inline"; 
 //   }
-
-// btnBR.onactivate = function(evt) {
-//   console.log("down");
-//   suggestion.style.display = "none";
-//   title.style.display = "inline";
-//   btnLeft.style.display = "inline";
-//   btnRight.style.display = "inline";     
 // }
+
+btnTR.onactivate = function(evt) {
+    console.log("up");
+    suggestion.style.display = "inline";
+    title.style.display = "none";
+    btnLeft.style.display = "none";
+    btnRight.style.display = "none"; 
+    btnBR.style.display = "inline";
+  }
+
+btnBR.onactivate = function(evt) {
+  console.log("down");
+  suggestion.style.display = "none";
+  title.style.display = "inline";
+  btnLeft.style.display = "inline";
+  btnRight.style.display = "inline";
+  btnBR.style.display = "none";
+}
 
 var count;
 var interval = null;

@@ -1,4 +1,4 @@
-<svg id="my-popup">
+<svg>
   <use id="suggestion" href="#cycleview">
     <use href="#cycleview-item" class="cycle-item">
       <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow">
@@ -52,15 +52,15 @@
     <set href="#text" attributeName="text-anchor" to="middle" />
   </use>
   <!-- TOP RIGHT -->
-<!--   <use id="btn-tr" href="#combo-button-upper-right" fill="fb-red">
+  <use id="btn-tr" href="#combo-button-upper-right" fill="fb-red">
     <set href="combo-button-icon" attributeName="href" to="suggestions.png"/>
-    <set href="combo-button-icon-press" attributeName="href" to="suggestions.png"/>
-    <set href="combo-button-stroke" attributeName="display" to="inline"/>
-  </use> -->
+    <set href="combo-button-icon-press" attributeName="href" to="suggestions_press.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="none"/>
+  </use>
   <!-- BOTTOM RIGHT -->
-<!--   <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach">
+  <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach">
     <set href="combo-button-icon" attributeName="href" to="change_alert.png"/>
-    <set href="combo-button-icon-press" attributeName="href" to="change_alert.png"/>
-    <set href="combo-button-stroke" attributeName="display" to="inline"/>
-  </use> -->
+    <set href="combo-button-icon-press" attributeName="href" to="change_alert_press.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="none"/>
+  </use>
 </svg>
