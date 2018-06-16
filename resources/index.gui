@@ -28,6 +28,9 @@
              to="To satisfy a sweet tooth craving, try a chia seed pudding with delicious berry toppings. Tap to expand the recipe!"/>
       </use> 
     </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <image href="smile.jpg" load="sync" />
+    </use>
   </use>
 <!--   <rect class="full-size" fill="fb-black" /> -->
 
