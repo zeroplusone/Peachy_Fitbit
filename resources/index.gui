@@ -1,0 +1,60 @@
+<svg id="my-popup">
+  <use id="suggestion" href="#cycleview">
+    <use href="#cycleview-item" class="cycle-item">
+      <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow">
+        <set href="#header/text" attributeName="text-buffer" to="Suggestion 1"/>
+        <set href="#copy/text" attributeName="text-buffer"
+             to="You might feel like the world is about to end and only sad Keanu can truly understand but it’s just your hormones!"/>
+      </use> 
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow">
+        <set href="#header/text" attributeName="text-buffer" to="Suggestion 2"/>
+        <set href="#copy/text" attributeName="text-buffer"
+             to="Drink ginger tea or supplements - it is well known for its pain relieving qualities!"/>
+      </use> 
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow">
+        <set href="#header/text" attributeName="text-buffer" to="Suggestion 3"/>
+        <set href="#copy/text" attributeName="text-buffer"
+             to="Avoid processed foods - doughnuts, soda, candy, etc."/>
+      </use> 
+    </use>
+    <use href="#cycleview-item" class="cycle-item">
+      <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow">
+        <set href="#header/text" attributeName="text-buffer" to="Suggestion 4"/>
+        <set href="#copy/text" attributeName="text-buffer"
+             to="To satisfy a sweet tooth craving, try a chia seed pudding with delicious berry toppings. Tap to expand the recipe!"/>
+      </use> 
+    </use>
+  </use>
+<!--   <rect class="full-size" fill="fb-black" /> -->
+
+  <!-- Title and text -->
+  <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white" id="title">
+    <set href="#top-padding" attributeName="display" to="none" />
+    <set href="#header/text" attributeName="text-buffer" to="no alert" />
+    <set href="#header/text" attributeName="fill" to="fb-magenta"/>
+    <set href="#copy/text" attributeName="text-buffer" to="left to change your pad" />
+    <set href="#bottom-padding" attributeName="display" to="none" />
+  </use>
+
+  <!-- Left button -->
+  <use id="btnLeft" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="pad" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+
+  <!-- Right button -->
+  <use id="btnRight" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="tampon" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+  <!-- alert clock-->
+<!--   <use href="#mixed-text-center-mid" height="100%" fill="fb-yellow" display="none" id="change">
+    <set href="#header/text" attributeName="text-buffer" to="--:--" id="my_time"/>
+    <set href="#copy/text" attributeName="text-buffer"
+         to="left to change your pad"/>
+  </use> -->
+</svg>

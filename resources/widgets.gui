@@ -1,0 +1,29 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- mix text -->
+    <link rel="stylesheet" href="/mnt/sysassets/widgets/dynamic_textarea.css"/>
+    <link rel="import" href="/mnt/sysassets/widgets/dynamic_textarea.gui"/>
+    <link rel="import" href="/mnt/sysassets/widgets/mixed_text_widget.gui"/>
+    <!-- tile -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.gui" />
+    <!-- panoramaview -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/panoramaview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/pagination_dots.gui" />
+    <!-- Scroll view -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.gui" />
+    <!-- Buttons -->
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    <link rel="stylesheet" href="/mnt/sysassets/widgets/dynamic_textarea.css" />
+    <link rel="import" href="/mnt/sysassets/widgets/dynamic_textarea.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/mixed_text_widget.gui" />
+    <!-- Cycle view -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/cycleview_widget.gui" />
+  </defs>
+</svg>

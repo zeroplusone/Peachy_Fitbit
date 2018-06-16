@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "f9410a12-cecb-4acf-892b-c33c064552f8",
+    "appType": "app",
+    "appDisplayName": "Peachy",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Peachy"
+      }
+    }
+  }
+}
